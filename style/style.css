@@ -1,0 +1,545 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+main {
+  overflow-x: hidden;
+}
+
+/***** Nav Section *****/
+header .navbar {
+  padding: 15px 35px 0 35px;
+}
+.navbar-brand {
+  display: flex;
+  gap: 1rem;
+  margin-right: 35px;
+  align-items: center;
+}
+.navbar-brand span {
+  color: #03a9f5;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+.navbar-nav {
+  display: flex;
+  gap: 5rem;
+  color: black;
+  font-weight: 500;
+}
+.nav-item {
+  font-size: 20px;
+}
+.loan:hover {
+  background-color: #0050ff;
+  font-size: 15px;
+}
+button.navbar-toggler {
+  border: none;
+}
+/***** Responsive Nav *****/
+
+@media screen and (max-width: 990px) {
+  header .navbar {
+    padding: 0px;
+  }
+}
+@media screen and (max-width: 450px) {
+  header .navbar {
+    padding: 0px;
+  }
+}
+
+/***** End Responsive Nav *****/
+
+/***** End Nav Section *****/
+
+/***** Hero Section *****/
+
+.img-section img {
+  background: url("/assets/img/bg.png") no-repeat center center/cover;
+  /* background-size: cover;
+  background-position: center; */
+  border-radius: 10px;
+  padding: 25px 25px 0 25px;
+}
+
+.left-section .hero-text .main-txt {
+  font-family: Inter;
+  font-size: 3.8rem;
+  font-weight: 700;
+}
+.left-section .hero-text span {
+  font-family: Inter;
+  font-size: 15px;
+  color: #4b5262;
+}
+.left-section .hero-btn .btn {
+  background-color: #0050ff;
+  padding: 10px 25px 10px 25px;
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.num p {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  color: #0f172a;
+}
+.num span {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  color: #4b5262;
+}
+
+.hero-btn .btn :hover {
+  background-color: aliceblue;
+  color: #0f172a;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .img-section {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+/***** End Hero  *****/
+
+/***** About Section *****/
+
+.about-section {
+  margin-top: 10rem;
+}
+
+.about-content .about-text .about-int {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  color: #2563eb;
+}
+.about-content .about-text h4 {
+  font-family: Inter;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 86px;
+  letter-spacing: -4px;
+  text-align: left;
+}
+.about-content .about-text p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  color: #4b5262;
+}
+.about-content .about-text p strong {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  color: #4b5262;
+}
+.about-content .about-vision span,
+.about-content .about-mission span {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+}
+.about-content .about-vision p,
+.about-content .about-mission p {
+  color: #4b5262;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+}
+.about-img img {
+  border-width: 1px 0 1px 0;
+  border-color: rgba(0, 50, 255, 37.7);
+  /* border: 2px solid rgba(0, 50, 255, 37.7); */
+}
+/***** End About Section *****/
+/***** lending Section *****/
+
+.lending-section {
+  margin-top: 10rem;
+}
+
+.lending-text span {
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: 400;
+  color: #667085;
+}
+.lending-text h3 {
+  font-family: Inter;
+  font-size: 80px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+/***** marquie-landing *****/
+.lending-img marquee {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lending-img marquee img {
+  padding: 2rem;
+}
+/***** End marquie-landing *****/
+
+/***** End lending Section *****/
+
+/***** Application Section *****/
+.application-section {
+  background-color: #f1f5f9;
+  margin-top: 3rem;
+}
+.application-section .application-txt span {
+  font-family: Inter;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 6rem;
+}
+.application-step {
+  padding: 5rem 0 7rem 0;
+}
+.step {
+  box-shadow: #a9c1db 6px 2px 16px 0px, #ffffffb2 -6px -2px 16px 0px;
+  background-color: #e2eaf3;
+  border-radius: 10px;
+  padding: 45px 30px;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+.step .step-title span {
+  background-color: #000000;
+  border-radius: 3px;
+  color: #fff;
+  padding: 2px 5px 2px 5px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+}
+.step .step-txt p {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/***** End Application Section *****/
+
+/***** Industry Section *****/
+.industry-section {
+  margin-top: 5rem;
+}
+.industry-title {
+  padding-bottom: 5rem;
+}
+.industry-title span {
+  font-family: Inter;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 6rem;
+}
+.industry-content {
+  background-color: #f1f5f9;
+  box-shadow: #dbe5f0 0px 0px 0px 1px, #f1f5f9 0px 0px 0px 1px inset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 2rem 2rem;
+  border-radius: 2rem;
+}
+.industry-txt span {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+}
+.industry-content .elink-img {
+  padding: 3.2rem 1rem;
+  background-color: white;
+  border-radius: 10px;
+}
+/***** End Industry Section *****/
+
+/***** FAQs Section *****/
+.faq-section {
+  margin-top: 5rem;
+}
+.faq-title {
+  padding-bottom: 5rem;
+}
+.faq-title h1 {
+  font-family: Inter;
+  font-size: 80px;
+  font-weight: 700;
+}
+.faq-title span {
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: 400;
+  color: #667085;
+}
+
+.accordion-button {
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: 500;
+}
+.accordion-body {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  color: #667085;
+}
+.accordion-button::after {
+  background-image: url("/assets/img/plus-circle.png");
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("/assets/img/minus-circle.png");
+}
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+.accordion-button:not(.collapsed) {
+  color: #101828 !important;
+  background-color: transparent !important;
+}
+/***** End FAQs Section *****/
+
+/***** question Section *****/
+.question-content {
+  margin-top: 3rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  border-radius: 16px;
+  background-color: #f9fafb;
+}
+.question-txt p {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  color: #101828;
+}
+
+.question-txt span {
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: 400;
+  color: #667085;
+}
+
+.question-btn button {
+  background-color: #2563eb;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+/***** End question Section *****/
+
+/***** contact Section *****/
+.contact-title span {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  color: #2563eb;
+}
+.contact-title p {
+  font-family: Inter;
+  font-size: 80px;
+  font-weight: 700;
+  color: #0f172a;
+}
+.contact-title .contact-txt {
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: 400;
+  color: #667085;
+}
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  padding: 2rem 24rem;
+  /* width: 35rem; */
+}
+.form-group label {
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: 500;
+  color: #344054;
+}
+.form-group input[placeholder] {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  color: #667085;
+}
+.contact-form .btn {
+  background-color: #2563eb;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 9px 0px;
+}
+.checkbox label {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+}
+.checkbox a {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  color: #344054;
+}
+input[type="message"] {
+  height: 15rem;
+}
+/***** End contact Section *****/
+
+/*****Footer Section *****/
+footer {
+  padding: 5rem;
+  background-color: #020917;
+  color: #fff;
+}
+.footer-left .logo span {
+  color: #03a9f5;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+}
+.footer-left .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer-txt p {
+  font-family: Inter;
+  font-size: 64px;
+  font-weight: 700;
+  color: #d9e1f2;
+}
+.footer-right .location span {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  color: #d9e1f2;
+}
+.footer-right .location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.footer-ri {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-nav .list-item ul {
+  display: flex;
+  gap: 8rem;
+}
+.footer-nav .list-item ul li {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  color: #e8effd;
+}
+.footer-nav .list-item ul li {
+  list-style: none;
+}
+.footer-nav .list-item ul li a {
+  text-decoration: none;
+  color: #e8effd;
+}
+.copy-txt span {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.footer-nav .list-item ul li :hover {
+  color: #03a9f5;
+  font-size: 18px;
+}
+/***** End Footer Section *****/
+
+/***** Responsive Section *****/
+@media screen and (max-width: 754px) {
+  .left-section .hero-text .main-txt {
+    font-family: Inter;
+    font-size: 2.8rem;
+    font-weight: 700;
+  }
+  .application-section .application-txt span {
+    font-family: Inter;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 6rem;
+  }
+  .footer-txt p {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    color: #d9e1f2;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 2rem 14rem;
+    /* width: 35rem; */
+  }
+}
+@media screen and (max-width: 768px) {
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 2rem 7rem;
+    /* width: 35rem; */
+  }
+  .footer-nav .list-item ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 2rem 0rem;
+    /* width: 35rem; */
+  }
+}
+
+/***** End Responsive Section *****/
