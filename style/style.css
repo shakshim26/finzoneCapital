@@ -84,6 +84,10 @@ button.navbar-toggler {
 }
 .left-section .hero-btn .btn {
   background-color: #0050ff;
+}
+.left-section .hero-btn .btn a {
+  text-decoration: none;
+  color: #fff;
   padding: 10px 25px 10px 25px;
   font-family: Inter;
   font-size: 21px;
@@ -101,12 +105,6 @@ button.navbar-toggler {
   font-size: 16px;
   font-weight: 400;
   color: #4b5262;
-}
-
-.hero-btn .btn :hover {
-  background-color: aliceblue;
-  color: #0f172a;
-  font-size: 15px;
 }
 
 @media screen and (max-width: 767px) {
@@ -411,9 +409,6 @@ button.navbar-toggler {
   font-size: 16px;
   font-weight: 400;
   color: #344054;
-}
-input[type="message"] {
-  height: 15rem;
 }
 /***** End contact Section *****/
 
